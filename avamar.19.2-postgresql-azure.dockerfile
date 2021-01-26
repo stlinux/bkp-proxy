@@ -37,11 +37,11 @@ COPY src/packages/DockerEmbebed/19.2/AvamarClient-linux-sles11-x86_64-19.2.*.rpm
 RUN rpm -ivh --relocate /usr/local/avamar=/dockerclient  /tmp/AvamarClient-linux-sles11-x86_64-19.2.*.rpm
 #Copy .avagent file
 COPY src/avamar/.avagent /dockerclient
-# Avamar Client inbond ports
+# Avamar Client inbound ports
 EXPOSE 28002
 EXPOSE 30001
 EXPOSE 30002
-# Avamar Client outbond ports
+# Avamar Client outbound ports
 EXPOSE 53
 EXPOSE 123
 EXPOSE 443

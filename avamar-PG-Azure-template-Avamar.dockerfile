@@ -4,11 +4,11 @@ COPY src/packages/DockerEmbebed/DUMMYVERSION/AvamarClient-linux-sles11-x86_64-DU
 RUN rpm -ivh --relocate /usr/local/avamar=/DUMMYINSTALLDIR  /tmp/AvamarClient-linux-sles11-x86_64-DUMMYVERSION.*.rpm
 #Copy .avagent file
 COPY src/avamar/.avagent /DUMMYINSTALLDIR
-# Avamar Client inbond ports
+# Avamar Client inbound ports
 EXPOSE 28002
 EXPOSE 30001
 EXPOSE 30002
-# Avamar Client outbond ports
+# Avamar Client outbound ports
 EXPOSE 53
 EXPOSE 123
 EXPOSE 443
