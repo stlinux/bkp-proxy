@@ -105,3 +105,15 @@ Deployment sequence (from DCI):
    
 6) Configure an Avamar policy backup as usual.
 
+```
+==========================================================================================================================================
+Reference resources
+
+- Video demo https://youtu.be/isaHN4K6Quk 
+- Code repository https://github.com/uniqs-devops/bkp-proxy.git 
+- Leveraging Avamar for File Level Backup of apps running on Kubernetes https://github.com/cn-dp/K8s-Avamar 
+- Data Protection: Avamar, NetWorker, Data Domain, RecoverPoint, PowerProtect, CSM https://nsrd.info/blog/2019/03/05/proof-of-concept-docker-with-boostfs/ 
+
+==========================================================================================================================================
+ 
+
